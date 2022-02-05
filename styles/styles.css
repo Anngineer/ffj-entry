@@ -1,0 +1,192 @@
+/* base reset so that I can set the padding and margins*/
+/* Generally, I'll make padding- 10px 15px and margin - 20px */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* Setting the base properties for the entire page */
+/* box-sizing so that everything will contain its internal elements*/
+html,
+body {
+  color: #2f3638;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  /*This will make it so when you click on a link, 
+        it will scroll to that spot rather than jump*/
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+  color: #2f3638;
+  background-color: #b4bfc5;
+}
+
+#message-decoder-section {
+  background-color: #b4bfc5;
+  min-height: 40rem;
+}
+
+#foxforest {
+  min-height: 80rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../images/forestshort.png");
+  background-size: 85vw;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+@media (min-width: 500px) {
+  #foxforest {
+    background-size: 85vw;
+  }
+}
+
+@media (min-width: 700px) {
+  #foxforest {
+    background-size: 500px;
+  }
+}
+
+#right-cloud {
+  width: 180px;
+  height: auto;
+  position: absolute;
+  right: 4rem;
+  top: 10rem;
+  display: none;
+}
+
+#left-cloud {
+  width: 220px;
+  position: absolute;
+  height: auto;
+  right: 14rem;
+  top: 2rem;
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  #left-cloud,
+  #right-cloud {
+    display: block;
+  }
+}
+
+#message-container {
+  position: absolute;
+  top: 4rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  background-color: #ffffffa4;
+  background-color: #f3f7f6cc;
+  border-radius: 4px;
+}
+
+#message-container h2 {
+  padding: 1rem;
+  padding-top: 1.3rem;
+  line-height: 1.3rem;
+}
+
+#message-container p {
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+@media (min-width: 380px) {
+  #message-container {
+    margin-left: 1.5rem;
+    padding: 1rem;
+  }
+  #message-container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 500px) {
+  #message-container {
+    margin-right: 2rem;
+  }
+  #message-container h2 {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (min-width: 700px) {
+  #message-container {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: 2rem;
+    margin-top: 6rem;
+  }
+  #message-container p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  #message-container {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: 10rem;
+    margin-top: 9rem;
+  }
+}
+
+#deer-button-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 700px) {
+  #deer-button-container {
+    width: 300px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+#return-button {
+  cursor: pointer;
+  height: 2.2rem;
+  width: 8rem;
+  background-color: #60626c;
+  color: #f0f1f1;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+
+#deer {
+  display: block;
+  width: 50%;
+  max-width: 230px;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

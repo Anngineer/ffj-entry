@@ -7,3 +7,6 @@ let message = document.querySelector("#message");
 message.innerText = myDecodedURLHash;
 // I'll be setting a <p> </p> to have the decoded text.
 // Have a hyperlink to take you to the journal page to write another one
+
+// Maybe after the page loads, find out what the height of the body is
+//and then add an extra 10rem to it;

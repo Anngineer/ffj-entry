@@ -99,6 +99,7 @@ body {
   background-color: $opaque-white;
   background-color: #f3f7f6cc;
   border-radius: 4px;
+  margin-bottom: 10rem;
   h2 {
     padding: 1rem;
     padding-top: 1.3rem;
@@ -196,3 +197,22 @@ body {
   max-width: 230px;
   margin-bottom: 1rem;
 }
+
+// ---------------------------------
+// // footer
+// footer {
+//   position: absolute;
+//   bottom: 0;
+//   right: 0;
+//   color: white;
+//   background-color: #b4bfc5;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-end;
+//   justify-content: flex-end;
+//   min-height: 10rem;
+//   padding: 3rem;
+//   p {
+//     text-align: right;
+//   }
+// }

@@ -28,6 +28,7 @@ body {
   font-size: 1.1rem;
   color: #2f3638;
   background-color: #b4bfc5;
+  padding-bottom: 4rem;
 }
 
 #message-decoder-section {
@@ -203,5 +204,32 @@ body {
   width: 50%;
   max-width: 230px;
   margin-bottom: 1rem;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.753);
+  background-color: #b4bfc5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  min-height: 10rem;
+  padding: 3rem;
+  padding-bottom: 0;
+}
+
+footer p {
+  text-align: right;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 /*# sourceMappingURL=styles.css.map */

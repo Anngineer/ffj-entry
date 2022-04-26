@@ -253,4 +253,12 @@ footer p {
   -ms-grid-column-align: end;
       justify-self: end;
 }
+
+footer p a {
+  color: white;
+}
+
+footer p a:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */

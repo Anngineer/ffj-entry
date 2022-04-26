@@ -235,5 +235,11 @@ footer {
   p {
     text-align: right;
     justify-self: end;
+    a {
+      color: white;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }

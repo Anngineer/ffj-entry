@@ -1,5 +1,7 @@
 # ffj-entry
 
+Live link: [ffj-entry](https://anngineer.github.io/ffj-entry/).
+
 This is a decoder page for journal entry urls created in the Forest Friend Journal website.
 
 ## Details
